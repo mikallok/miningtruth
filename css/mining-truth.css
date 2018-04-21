@@ -85,9 +85,11 @@ a {
  -webkit-overflow-scrolling: touch;
  border-top: 1px transparent;
 }
+
 .navbar-brand > img {
  display: block;
 }
+
 .navbar-brand {
  float: left;
  height: 50px;
@@ -122,6 +124,7 @@ a {
  color: #ffffff;
  background-color: transparent;
 }
+
 .navbar-inverse .navbar-toggle {
  border-color: #cc6600;
 }
