@@ -2,12 +2,19 @@ h1 {
  font-family: arial black, helvetica, sans-serif;
  font-size: 2.7em;
  font-weight: bolder;
+
+ color: #663300;
+ }
+h1.homepage {
+ font-family: arial black, helvetica, sans-serif;
+ font-size: 2.7em;
+ font-weight: bolder;
  padding-right: 5px;
  color: #FFFFFF;
 
 }
 @media only screen and (max-width: 600px) {
-h1 {
+h1.homepage {
 font-family: arial black, helvetica, sans-serif;
 font-size: 2em;
 font-weight: bolder;
@@ -21,7 +28,7 @@ left: 30px;}
 }
 
 @media only screen and (max-width: 400px) {
-h1 {
+h1.homepage {
 font-family: arial black, helvetica, sans-serif;
 font-size: 1.6em;
 font-weight: bolder;
@@ -36,7 +43,7 @@ bottom: 0px;
 left: 10px;}
 }
 @media only screen and (max-width: 300px) {
-h1 {
+h1.homepage {
 font-family: arial black, helvetica, sans-serif;
 font-size: 1.2em;
 font-weight: bolder;
