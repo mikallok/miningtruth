@@ -32,8 +32,8 @@ color: #FFFFFF;
 }
 .bottom-left {
 position: absolute;
-bottom: 10px;
-left: 30px;}
+bottom: 0px;
+left: 10px;}
 }
 @media only screen and (max-width: 300px) {
 h1 {
@@ -48,8 +48,8 @@ color: #FFFFFF;
 }
 .bottom-left {
 position: absolute;
-bottom: 10px;
-left: 20px;}
+bottom: 0px;
+left: 10px;}
 }
 h2 {
 font-family: arial black, helvetica, sans-serif;
