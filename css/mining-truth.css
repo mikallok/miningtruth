@@ -27,7 +27,7 @@ font-size: 1.6em;
 font-weight: bolder;
 padding-right: 10px;
 color: #FFFFFF;
--webkit-text-stroke-width: 1px;
+-webkit-text-stroke-width: .25px;
    -webkit-text-stroke-color: #663300;
 }
 .bottom-left {
@@ -42,7 +42,7 @@ font-size: 1.2em;
 font-weight: bolder;
 padding-right: 10px;
 color: #FFFFFF;
--webkit-text-stroke-width: 1px;
+-webkit-text-stroke-width: .25px;
    -webkit-text-stroke-color: #663300;
 
 }
