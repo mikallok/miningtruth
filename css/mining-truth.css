@@ -3,7 +3,7 @@ h1 {
  font-size: 2.4em;
  font-weight: bolder;
 padding-top: 2px;
- padding-bottom: 10px;
+ padding-bottom: 6px;
 
  color: #663300;
  }
@@ -72,7 +72,7 @@ h3 {
 
 p {
 font-family: arial, helvetica, sans-serif;
-
+padding-top: 4px;
 }
 
 .bottom-left {
@@ -93,7 +93,9 @@ a {
 
 figure {
   padding-top: 10px;
-  align-content: center;
+  padding-bottom: 15px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 figcaption {
