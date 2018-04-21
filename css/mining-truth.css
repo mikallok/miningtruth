@@ -42,6 +42,8 @@ font-size: 1.3em;
 font-weight: bolder;
 padding-right: : 10px;
 color: #FFFFFF;
+-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #663300;
 
 }
 .bottom-left {
