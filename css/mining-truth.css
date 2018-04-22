@@ -1,8 +1,8 @@
 h1 {
  font-family: arial black, helvetica, sans-serif;
- font-size: 2.4em;
+ font-size: 2em;
  font-weight: bolder;
-padding-top: 2px;
+padding-top: 1px;
 padding-left: 16px;
  padding-bottom: 6px;
 
@@ -63,7 +63,7 @@ left: 10px;}
 }
 h2 {
 font-family: arial black, helvetica, sans-serif;
- font-size: 1.3em;
+ font-size: 1.4em;
  font-weight: bolder;
  color: #663300;
 }
