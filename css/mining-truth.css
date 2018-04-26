@@ -7,7 +7,6 @@ h1 {
 padding-top: 1px;
 padding-left: 16px;
  padding-bottom: 6px;
-
  color: #663300;
  }
 h1.homepage {
@@ -76,19 +75,13 @@ h3 {
 p {
 font-family: arial, helvetica, sans-serif;
 padding-top: 4px;
+line-height: 1.4em;
 }
 
 .bottom-left {
 position: absolute;
 bottom: 10px;
 left: 30px;}
-
-p.intro {
- font: 120% arial black; sans-serif;
- color: #cc6600;
- font-weight:bolder;
- padding-left: 4px;
-}
 
 a {
  color: #cc6600;
@@ -104,6 +97,7 @@ figure {
 figcaption {
 font-family: arial, helvetica, sans-serif;
 font-size: .8em;
+line-height: 1.4em;
 font-weight: bold;
 padding: 10px;
 text-align: inherit;
@@ -112,8 +106,6 @@ background-color: #d3d3d3;
 }
 
 .navbar-collapse {
- padding-right: 15px;
- padding-left: 15px;
  overflow-x: visible;
  -webkit-overflow-scrolling: touch;
  border-top: 1px transparent;
@@ -126,14 +118,16 @@ background-color: #d3d3d3;
 .navbar-brand {
  float: left;
  height: 50px;
- padding: 2px 2px 10px 10px;
+ padding: 2px 2px 0px 10px;
  font-size: 18px;
  line-height: 50px;
+ max-width: 940px;
 }
 
 .navbar-inverse {
  background-color: #663300;
  border-color: #663300;
+ max-width: 940px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -187,7 +181,6 @@ body {
 font-size: 1.6em;
 }
 
-
 article {
  -webkit-columns: 2 200px;
  -moz-columns: 2 200px;
@@ -195,7 +188,7 @@ article {
 }
 
 footer {
-   padding: 30px 0;
+   padding: 15px 0;
 text-align: center;
 }
 
@@ -204,7 +197,7 @@ text-align: center;
 }
 
 body {
- max-width: 992px;
+ max-width: 940px;
  margin-left: auto;
  margin-right: auto;
  margin-top: 0;
