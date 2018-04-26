@@ -1,3 +1,5 @@
+
+
 h1 {
  font-family: arial black, helvetica, sans-serif;
  font-size: 2em;
@@ -198,7 +200,7 @@ text-align: center;
 }
 
 .container {
-  max-width: 992px;
+  max-width: 940px;
 }
 
 body {
