@@ -109,10 +109,12 @@ background-color: #d3d3d3;
  overflow-x: visible;
  -webkit-overflow-scrolling: touch;
  border-top: 1px transparent;
+
 }
 
 .navbar-brand > img {
  display: block;
+
 }
 
 .navbar-brand {
@@ -122,12 +124,13 @@ background-color: #d3d3d3;
  font-size: 18px;
  line-height: 50px;
  max-width: 940px;
+
 }
 
 .navbar-inverse {
  background-color: #663300;
  border-color: #663300;
- max-width: 940px;
+
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -194,6 +197,7 @@ text-align: center;
 
 .container {
   max-width: 940px;
+
 }
 
 body {
