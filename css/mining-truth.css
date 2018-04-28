@@ -70,6 +70,11 @@ font-family: arial black, helvetica, sans-serif;
 }
 
 h3 {
+  font-family: arial black, helvetica, sans-serif;
+   font-size: 1.1em;
+   font-weight: bolder;
+   padding-top: 10px;
+   color: #cc6600;
  }
 
 p {
@@ -87,7 +92,7 @@ ol {
 
 ol  > li {
   margin: 0;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 1em;
   text-indent: -1em;
   list-style-type: none;
   counter-increment: item;
@@ -103,18 +108,24 @@ ol > li:before {
 }
 
 ul {
-padding-left: 1.75em;
+padding-left: 1em;
 
   line-height: 1.6em;
 }
 
 ul  > li {
   margin: 0;
-  padding: 0 0em 0 .5em;
+  padding: 0 0em 0 .25em;
   text-indent: 0em;
 
 }
 
+.sidebar {
+  background-color: #d3d3d3;
+  padding-left: 30px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
 
 .bottom-left {
 position: absolute;
