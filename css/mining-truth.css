@@ -154,6 +154,11 @@ ul  > li {
 
 }
 
+hr.inside {
+  margin-left: -15px;
+  max-width: 910px;
+}
+
 .sidebar {
   background-color: #d3d3d3;
   padding-left: 30px;
