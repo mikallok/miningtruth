@@ -4,7 +4,7 @@ h1 {
  font-family: arial black, helvetica, sans-serif;
  font-size: 2em;
  font-weight: bolder;
- margin-left: -15px;
+ margin-left: -12px;
 padding-top: 1px;
  padding-bottom: 6px;
  color: #663300;
@@ -63,10 +63,19 @@ position: absolute;
 bottom: 0px;
 left: 10px;}
 }
+h2.homepage {
+font-family: arial black, helvetica, sans-serif;
+ font-size: 1.4em;
+ font-weight: bolder;
+ margin-left: 0px;
+ color: #663300;
+}
+
 h2 {
 font-family: arial black, helvetica, sans-serif;
  font-size: 1.4em;
  font-weight: bolder;
+ margin-left: -22px;
  color: #663300;
 }
 
@@ -89,7 +98,7 @@ p {
 font-family: arial, helvetica, sans-serif;
 padding-top: 4px;
 line-height: 1.4em;
-margin-left: -25px;
+margin-left: -20px;
 }
 
 ol {
@@ -150,6 +159,7 @@ figure {
   padding-bottom: 15px;
   padding-left: auto;
   padding-right: auto;
+  margin-left: -20px;
 }
 
 figcaption {
