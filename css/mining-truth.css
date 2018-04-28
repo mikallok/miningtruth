@@ -178,6 +178,10 @@ a {
  color: #cc6600;
 }
 
+a:hover {
+  color: #ffffff;
+}
+
 figure {
   padding-top: 10px;
   padding-bottom: 15px;
