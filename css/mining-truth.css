@@ -89,10 +89,10 @@ font-family: arial black, helvetica, sans-serif;
 }
 
 h3 {
-  font-family: arial black, helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
    font-size: 1.1em;
-   font-weight: bolder;
-   padding-top: 10px;
+   font-weight: bold;
+   padding-left: 15px;
    color: #cc6600;
  }
 p.homepage {
@@ -161,9 +161,12 @@ hr.inside {
 
 .sidebar {
   background-color: #d3d3d3;
-  padding-left: 30px;
-  padding-right: 0px;
+  padding-left: 15px;
+  padding-right: 10px;
   padding-bottom: 20px;
+  padding-top: 1px;
+  margin-top: 11px;
+  margin-right: 16px;
 }
 
 .bottom-left {
@@ -192,6 +195,24 @@ padding: 10px;
 text-align: inherit;
 display: inline-block;
 background-color: #d3d3d3;
+}
+
+figure.sidebar {
+  padding-top: 2px;
+  padding-bottom: 4px;
+  margin-left: 0px;
+}
+
+figcaption.sidebar {
+font-family: arial, helvetica, sans-serif;
+font-size: .8em;
+line-height: 1.4em;
+font-weight: bold;
+padding-left: 22px;
+text-align: inherit;
+display: inline-block;
+background-color: #d3d3d3;
+max-width: 270px;
 }
 
 .navbar-collapse {
