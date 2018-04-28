@@ -63,19 +63,28 @@ position: absolute;
 bottom: 0px;
 left: 10px;}
 }
-h2.homepage {
-font-family: arial black, helvetica, sans-serif;
- font-size: 1.4em;
- font-weight: bolder;
- margin-left: 0px;
- color: #663300;
-}
 
 h2 {
 font-family: arial black, helvetica, sans-serif;
  font-size: 1.4em;
  font-weight: bolder;
  margin-left: -22px;
+ color: #663300;
+}
+
+h2.inside {
+font-family: arial black, helvetica, sans-serif;
+ font-size: 1.4em;
+ font-weight: bolder;
+ margin-left: -10px;
+ color: #663300;
+}
+
+h2.homepage {
+font-family: arial black, helvetica, sans-serif;
+ font-size: 1.4em;
+ font-weight: bolder;
+ margin-left: 0px;
  color: #663300;
 }
 
@@ -99,6 +108,13 @@ font-family: arial, helvetica, sans-serif;
 padding-top: 4px;
 line-height: 1.4em;
 margin-left: -20px;
+}
+
+p.inside {
+font-family: arial, helvetica, sans-serif;
+padding-top: 4px;
+line-height: 1.4em;
+margin-left: -10px;
 }
 
 ol {
