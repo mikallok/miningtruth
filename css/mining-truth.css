@@ -4,8 +4,8 @@ h1 {
  font-family: arial black, helvetica, sans-serif;
  font-size: 2em;
  font-weight: bolder;
+ margin-left: -15px;
 padding-top: 1px;
-padding-left: 16px;
  padding-bottom: 6px;
  color: #663300;
  }
@@ -76,11 +76,19 @@ h3 {
    padding-top: 10px;
    color: #cc6600;
  }
+p.homepage {
+  font-family: arial, helvetica, sans-serif;
+  padding-top: 4px;
+  line-height: 1.4em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 p {
 font-family: arial, helvetica, sans-serif;
 padding-top: 4px;
 line-height: 1.4em;
+margin-left: -25px;
 }
 
 ol {
@@ -92,7 +100,7 @@ ol {
 
 ol  > li {
   margin: 0;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1.5em;
   text-indent: -1em;
   list-style-type: none;
   counter-increment: item;
@@ -108,7 +116,7 @@ ol > li:before {
 }
 
 ul {
-padding-left: 1em;
+padding-left: 1.25em;
 
   line-height: 1.6em;
 }
@@ -158,7 +166,6 @@ background-color: #d3d3d3;
  overflow-x: visible;
  -webkit-overflow-scrolling: touch;
  border-top: 1px transparent;
-
 }
 
 .navbar-brand > img {
@@ -246,16 +253,27 @@ text-align: center;
 
 .container {
   max-width: 940px;
-  margin-left: -15px;
-  margin-right: auto;
+
 }
 
-body {
- max-width: 910px;
+body.homepage {
+ max-width: 940px;
  margin-left: auto;
  margin-right: auto;
  margin-top: 0;
  padding-top: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+body {
+ max-width: 940px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-top: 0;
+ padding-top: 10px;
+
 }
 
 
