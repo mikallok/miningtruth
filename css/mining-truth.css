@@ -93,8 +93,15 @@ h3 {
    font-size: 1.1em;
    font-weight: bold;
    padding-left: 15px;
-   color: #cc6600;
+   color: #333333;
  }
+ h3.noimage {
+   font-family: arial, helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 5px;
+    color: #333333;
+  }
 p.homepage {
   font-family: arial, helvetica, sans-serif;
   padding-top: 2px;
@@ -105,17 +112,27 @@ p.homepage {
 
 p {
 font-family: arial, helvetica, sans-serif;
-padding-top: 2px;
+padding-top: 3px;
 line-height: 1.4em;
 margin-left: -20px;
 }
 
 p.inside {
 font-family: arial, helvetica, sans-serif;
-padding-top: 2px;
+padding-top: 3px;
 line-height: 1.4em;
 margin-left: -10px;
 }
+
+.fa {
+    padding: 5px;
+    font-size: 5px;
+    width: 40px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: -20px;
+}
+
 
 ol {
   margin: 0 0 1.5em;
@@ -163,9 +180,8 @@ hr.inside {
   background-color: #d3d3d3;
   padding-left: 15px;
   padding-right: 10px;
-  padding-bottom: 20px;
   padding-top: 1px;
-  margin-top: 11px;
+  margin-top: 9px;
   margin-right: 16px;
 }
 
@@ -175,11 +191,11 @@ bottom: 10px;
 left: 30px;}
 
 a {
- color: #cc6600;
+ color:#cc6600;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #ff6600;
 }
 
 figure {
@@ -198,6 +214,27 @@ font-weight: bold;
 padding: 10px;
 text-align: inherit;
 display: inline-block;
+color: #333333;
+background-color: #d3d3d3;
+}
+figcaption.noimage {
+font-family: arial, helvetica, sans-serif;
+font-size: .8em;
+line-height: 1.4em;
+font-weight: bold;
+padding-left: 5px;
+padding-right: 5px;
+text-align: inherit;
+display: inline-block;
+color: #333333;
+background-color: #d3d3d3;
+}
+b.noimage {
+font-family: arial, helvetica, sans-serif;
+font-size: .8em;
+line-height: 1.4em;
+font-weight:lighter;
+color: #333333;
 background-color: #d3d3d3;
 }
 
@@ -215,6 +252,7 @@ font-weight: bold;
 padding-left: 22px;
 text-align: inherit;
 display: inline-block;
+color: #333333;
 background-color: #d3d3d3;
 max-width: 270px;
 }
